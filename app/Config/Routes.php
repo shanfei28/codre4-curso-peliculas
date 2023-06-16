@@ -33,7 +33,14 @@ $routes->set404Override();
 //$routes->get('/hola-mundo', 'Home::index');
 
 
-$routes->get('/', 'Home::index');
+
+$routes->presenter('pelicula');  
+
+// $routes->get('/', 'Home::index');
+
+// $routes->get('pelicula', 'Pelicula::index');
+// $routes->get('pelicula/new', 'Pelicula::create');
+
 
 // $routes->get('/new', 'Home::new');
 // $routes->post('/create', 'Home::create');

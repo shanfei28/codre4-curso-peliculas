@@ -9,6 +9,11 @@ use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
 use Psr\Log\LoggerInterface;
 
+
+
+
+
+
 /**
  * Class BaseController
  *
@@ -20,7 +25,7 @@ use Psr\Log\LoggerInterface;
  * For security be sure to declare any new methods as protected or private.
  */
 abstract class BaseController extends Controller
-{
+{    
     /**
      * Instance of the main Request object.
      *
@@ -43,6 +48,14 @@ abstract class BaseController extends Controller
      */
     // protected $session;
 
+
+    
+    
+        
+
+
+    
+    
     /**
      * Constructor.
      */
